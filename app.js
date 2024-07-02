@@ -36,9 +36,9 @@ function Num2Synbol(choice)
 function Judgement(PlayersChoice, PCsChoice)
 {
     let resultMsg = "";
-    let constPlayerWin = "プレイヤーの勝ち";
-    let constPCWin = "コンピューターの勝ち";
-    let constDraw = "あいこ";
+    let constPlayerWin = "口山の勝ち…";
+    let constPCWin = "AIナカタの勝ちｯ!";
+    let constDraw = "互角…！";
 
     if (PlayersChoice == PCsChoice) {
         resultMsg = constDraw;
